@@ -1,0 +1,30 @@
+.Post{
+    background-color: white;
+    text-align: left;
+    display: inline-table;
+    box-sizing: border-box;
+    border-radius: 0.75rem;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 3px 3px lightgray;
+    width: 300px;
+    height: 225px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.PostInfo{
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Post:hover {
+    border: 2px solid orange;
+
+}
+

@@ -1,0 +1,27 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 25px;
+    background-color: rgb(5, 43, 58);
+    color: rgb(241, 232, 232);
+   
+}
+
+.NavLinks{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    list-style: none;
+    /* height: 15px; */
+}
+
+.Nav a{
+   color: white;
+   text-decoration: none;
+}
+.Nav .active, a:hover{
+    color: orange;
+}
+

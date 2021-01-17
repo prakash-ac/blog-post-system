@@ -1,0 +1,28 @@
+.Comment{
+    background-color: white;
+    text-align: left;
+    display: inline-block;
+    box-sizing: content-box;
+    border: 1px solid lightgrey;
+    border-radius: 0.75rem;
+    box-shadow: 2px 3px 3px lightgray;
+    width: 60%;
+    height: 60px;
+    padding: 5px;
+    margin-top: 5px;
+    overflow: scroll;
+}
+
+.Name{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.CommentBody{
+    font-size: 14px;
+}
+
+.Comment:hover {
+    border: 2px solid orange;
+}
